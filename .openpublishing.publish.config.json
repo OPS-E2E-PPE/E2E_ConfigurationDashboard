@@ -13,7 +13,7 @@
       "build_source_folder": "configdashboard",
       "locale": "en-us",
       "open_to_public_contributors": true,
-      "build_entry_point": "docs",
+      "build_entry_point": "op",
       "template_folder": "_themes"
     }
   ],
