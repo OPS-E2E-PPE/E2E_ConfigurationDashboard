@@ -41,7 +41,17 @@
     "globalMetadata": {
       "breadcrumb_path": "/configdashboard/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "testnumber": 12,
+      "testobj": {
+        "a": 1,
+        "b": 12
+      },
+      "testarr": [
+        1,
+        2,
+        "3"
+      ]
     }
   }
 }
