@@ -9,10 +9,10 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
+      "xref_query_tags": [],
       "docset_name": "configdashboard",
       "build_source_folder": "configdashboard",
       "locale": "en-us",
-      "xref_query_tags": [],
       "open_to_public_contributors": false,
       "build_entry_point": "docs",
       "template_folder": "_themes"
