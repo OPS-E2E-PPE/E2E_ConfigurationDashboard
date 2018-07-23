@@ -65,12 +65,10 @@
     ],
     "branch-configtest": [
       "Publish",
-      "Intellisense",
-      "PDF"
+      "Intellisense"
     ],
     "test-masterwork1": [
-      "Publish",
-      "PDF"
+      "Publish"
     ]
   }
 }
