@@ -55,6 +55,9 @@
       "Publish"
     ],
     "branch-intest": [
+      "Publish"
+    ],
+    "branch-intest-live": [
       "Publish",
       "Intellisense"
     ]
