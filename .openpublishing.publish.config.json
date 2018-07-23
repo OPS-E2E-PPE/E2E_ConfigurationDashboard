@@ -25,7 +25,19 @@
       "template_folder": "_themes.pdf"
     }
   },
+  "branches_to_filter": [
+    "master-bili-sxs",
+    "branch-test-sxs",
+    "master-work2-sxs"
+  ],
+  "need_preview_pull_request": false,
+  "need_pr_comments": false,
   "resolve_user_profile_using_github": false,
+  "contribution_branch_mappings": {
+    "master-bili-sxs": "master-bili",
+    "branch-test-sxs": "branch-test",
+    "master-work2-sxs": "master-work2"
+  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -38,27 +50,10 @@
       "branch": "master"
     }
   ],
-  "need_generate_pdf_url_template": false,
-  "branches_to_filter": [
-    "master-bili-sxs",
-    "branch-test-sxs",
-    "master-work2"
-  ],
-  "need_preview_pull_request": false,
-  "need_pr_comments": false,
-  "contribution_branch_mappings": {
-    "master-bili-sxs": "master-bili",
-    "branch-test-sxs": "branch-test",
-    "master-work2-sxs": "master-work2"
-  },
   "branch_target_mapping": {
     "live": [
-      "Publish",
-      "PDF"
-    ],
-    "branch-configtest": [
-      "Publish",
-      "Intellisense"
+      "Publish"
     ]
-  }
+  },
+  "need_generate_pdf_url_template": false
 }
