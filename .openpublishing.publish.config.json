@@ -48,8 +48,7 @@
   },
   "branch_target_mapping": {
     "master-intelli": [
-      "Publish",
-      "Intellisense"
+      "Publish"
     ],
     "master-pdf": [
       "Publish",
