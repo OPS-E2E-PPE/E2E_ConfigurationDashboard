@@ -22,12 +22,21 @@
   "skip_source_output_uploading": false,
   "dependent_repositories": [
     {
-      "branch_mapping": {},
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master"
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master"
     }
   ],
+  "Targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  },
   "branches_to_filter": [
     "master-bili-sxs",
     "branch-test-sxs",
@@ -55,6 +64,10 @@
     "branch-configtest": [
       "Publish",
       "Intellisense"
+    ],
+    "test-masterwork1": [
+      "Publish",
+      "PDF"
     ]
   },
   "need_generate_pdf_url_template": false
