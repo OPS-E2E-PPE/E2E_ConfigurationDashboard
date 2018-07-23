@@ -41,7 +41,7 @@
   "need_generate_pdf_url_template": false,
   "branches_to_filter": [
     "master-bili-sxs",
-    "branch-test"
+    "branch-test-sxs"
   ],
   "need_preview_pull_request": false,
   "contribution_branch_mappings": {
@@ -55,6 +55,10 @@
     "master-pdf": [
       "Publish",
       "PDF"
+    ],
+    "branch-intest": [
+      "Publish",
+      "Intellisense"
     ]
   }
 }
