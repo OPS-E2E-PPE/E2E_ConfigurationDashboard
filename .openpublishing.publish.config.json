@@ -55,13 +55,13 @@
     "master": [
       "Publish"
     ],
-    "master678": [
-      "Publish",
-      "PDF"
-    ],
     "config-test3": [
       "Publish",
       "Intellisense"
+    ],
+    "master678": [
+      "Publish",
+      "PDF"
     ]
   },
   "need_generate_pdf_url_template": false
