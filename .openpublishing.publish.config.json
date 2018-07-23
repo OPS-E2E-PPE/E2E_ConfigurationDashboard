@@ -26,7 +26,6 @@
     }
   },
   "branches_to_filter": [
-    "master-test-sxs",
     "master-test1"
   ],
   "need_preview_pull_request": false,
