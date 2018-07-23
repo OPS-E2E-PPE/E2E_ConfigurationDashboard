@@ -20,6 +20,21 @@
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "skip_source_output_uploading": false,
+  "Targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  },
+  "branches_to_filter": [
+    "master-bili-sxs",
+    "branch-test-sxs"
+  ],
+  "need_preview_pull_request": false,
+  "resolve_user_profile_using_github": false,
+  "contribution_branch_mappings": {
+    "master-bili-sxs": "master-bili",
+    "branch-test-sxs": "branch-test"
+  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -32,33 +47,17 @@
       "branch": "master"
     }
   ],
-  "Targets": {
-    "Pdf": {
-      "template_folder": "_themes.pdf"
-    }
-  },
-  "resolve_user_profile_using_github": false,
-  "need_generate_pdf_url_template": false,
-  "branches_to_filter": [
-    "master-bili-sxs",
-    "branch-test-sxs"
-  ],
-  "need_preview_pull_request": false,
-  "contribution_branch_mappings": {
-    "master-bili-sxs": "master-bili",
-    "branch-test-sxs": "branch-test"
-  },
   "branch_target_mapping": {
     "master-intelli": [
       "Publish"
     ],
     "master-pdf": [
-      "Publish",
-      "PDF"
+      "Publish"
     ],
     "branch-intest": [
       "Publish",
       "Intellisense"
     ]
-  }
+  },
+  "need_generate_pdf_url_template": false
 }
