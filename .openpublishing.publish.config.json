@@ -51,9 +51,6 @@
     }
   ],
   "branch_target_mapping": {
-    "master": [
-      "Publish"
-    ],
     "config-test3": [
       "Publish",
       "Intellisense"
