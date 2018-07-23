@@ -43,10 +43,15 @@
       "Publish"
     ],
     "master-pdf": [
-      "Publish",
-      "PDF"
+      "Publish"
     ],
     "branch-intest": [
+      "Publish"
+    ],
+    "branch-intest-live": [
+      "Publish"
+    ],
+    "branch-configtest": [
       "Publish",
       "Intellisense"
     ]
