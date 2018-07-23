@@ -37,11 +37,12 @@
       "template_folder": "_themes.pdf"
     }
   },
+  "resolve_user_profile_using_github": false,
+  "need_generate_pdf_url_template": false,
   "branches_to_filter": [
-    "master-bili"
+    "master-bili-sxs"
   ],
   "need_preview_pull_request": false,
-  "resolve_user_profile_using_github": false,
   "contribution_branch_mappings": {
     "master-bili-sxs": "master-bili"
   },
@@ -54,6 +55,5 @@
       "Publish",
       "PDF"
     ]
-  },
-  "need_generate_pdf_url_template": false
+  }
 }
