@@ -25,11 +25,7 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "branches_to_filter": [
-    "master-bili-sxs",
-    "branch-test-sxs",
-    "master-work2-sxs"
-  ],
+  "branches_to_filter": [],
   "need_preview_pull_request": false,
   "need_pr_comments": false,
   "resolve_user_profile_using_github": false,
