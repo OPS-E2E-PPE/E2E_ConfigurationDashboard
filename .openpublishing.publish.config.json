@@ -40,11 +40,13 @@
   "resolve_user_profile_using_github": false,
   "need_generate_pdf_url_template": false,
   "branches_to_filter": [
-    "master-bili-sxs"
+    "master-bili-sxs",
+    "branch-test"
   ],
   "need_preview_pull_request": false,
   "contribution_branch_mappings": {
-    "master-bili-sxs": "master-bili"
+    "master-bili-sxs": "master-bili",
+    "branch-test-sxs": "branch-test"
   },
   "branch_target_mapping": {
     "master-intelli": [
