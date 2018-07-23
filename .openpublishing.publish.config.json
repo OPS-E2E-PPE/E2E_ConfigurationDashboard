@@ -66,6 +66,10 @@
     "branch-configtest": [
       "Publish",
       "Intellisense"
+    ],
+    "test-masterwork1": [
+      "Publish",
+      "PDF"
     ]
   }
 }
