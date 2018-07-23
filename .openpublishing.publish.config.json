@@ -41,12 +41,14 @@
   "need_generate_pdf_url_template": false,
   "branches_to_filter": [
     "master-bili-sxs",
-    "branch-test-sxs"
+    "branch-test-sxs",
+    "master-work2"
   ],
   "need_preview_pull_request": false,
   "contribution_branch_mappings": {
     "master-bili-sxs": "master-bili",
-    "branch-test-sxs": "branch-test"
+    "branch-test-sxs": "branch-test",
+    "master-work2-sxs": "master-work2"
   },
   "branch_target_mapping": {
     "master-intelli": [
