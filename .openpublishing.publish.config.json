@@ -40,7 +40,8 @@
   ],
   "need_generate_pdf_url_template": false,
   "branches_to_filter": [
-    "master-test"
+    "master-test-sxs",
+    "master-test1"
   ],
   "need_preview_pull_request": false,
   "need_pr_comments": false,
@@ -48,14 +49,18 @@
     "master-bili-sxs": "master-bili",
     "branch-test-sxs": "branch-test",
     "master-work2-sxs": "master-work2",
-    "master-test-sxs": "master-test"
+    "master-test-sxs": "master-test",
+    "master-test1-sxs": "master-test1"
   },
   "branch_target_mapping": {
-    "config-test": [
+    "master": [
+      "Publish"
+    ],
+    "config-test3": [
       "Publish",
       "Intellisense"
     ],
-    "master": [
+    "master678": [
       "Publish",
       "PDF"
     ]
