@@ -32,14 +32,6 @@
   "need_preview_pull_request": false,
   "need_pr_comments": false,
   "resolve_user_profile_using_github": false,
-  "contribution_branch_mappings": {
-    "master-bili-sxs": "master-bili",
-    "branch-test-sxs": "branch-test",
-    "master-work2-sxs": "master-work2",
-    "master-test-sxs": "master-test",
-    "master-test1-sxs": "master-test1",
-    "master-work1-sxs": "master-work1"
-  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -52,16 +44,5 @@
       "branch": "master"
     }
   ],
-  "branch_target_mapping": {
-    "config-test3": [
-      "Publish"
-    ],
-    "master-work2": [
-      "Publish"
-    ],
-    "config-test": [
-      "Publish"
-    ]
-  },
   "need_generate_pdf_url_template": false
 }
