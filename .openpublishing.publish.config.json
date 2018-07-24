@@ -25,10 +25,7 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "notification_subscribers": [
-    "v-s@microsoft.com",
-    "v-sthong@microsoft.ccom"
-  ],
+  "notification_subscribers": [],
   "need_preview_pull_request": false,
   "need_pr_comments": false,
   "dependent_repositories": [
