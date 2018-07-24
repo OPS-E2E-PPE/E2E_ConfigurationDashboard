@@ -8,11 +8,11 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "moniker_ranges": [],
-      "xref_query_tags": [],
       "docset_name": "configdashboard",
       "build_source_folder": "configdashboard",
       "locale": "en-us",
+      "moniker_ranges": [],
+      "xref_query_tags": [],
       "open_to_public_contributors": true,
       "build_entry_point": "docs",
       "template_folder": "_themes"
