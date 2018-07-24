@@ -19,16 +19,16 @@
   ],
   "sync_notification_subscribers": [],
   "skip_source_output_uploading": false,
+  "notification_subscribers": [
+    "v-s@microsoft.com"
+  ],
   "Targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
     }
   },
-  "notification_subscribers": [
-    "v-s@microsoft.com"
-  ],
-  "need_preview_pull_request": false,
-  "need_pr_comments": false,
+  "need_preview_pull_request": true,
+  "need_pr_comments": true,
   "resolve_user_profile_using_github": false,
   "dependent_repositories": [
     {
