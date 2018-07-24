@@ -17,7 +17,6 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "skip_source_output_uploading": false,
   "Targets": {
@@ -25,6 +24,11 @@
       "template_folder": "_themes.pdf"
     }
   },
+  "notification_subscribers": [
+    "v-s@microsoft.com"
+  ],
+  "need_preview_pull_request": false,
+  "need_pr_comments": false,
   "resolve_user_profile_using_github": false,
   "dependent_repositories": [
     {
@@ -38,7 +42,5 @@
       "branch": "master"
     }
   ],
-  "need_generate_pdf_url_template": false,
-  "need_preview_pull_request": false,
-  "need_pr_comments": false
+  "need_generate_pdf_url_template": false
 }
