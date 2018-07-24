@@ -26,19 +26,8 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "branches_to_filter": [
-    "master-test-sxs",
-    "master-test1"
-  ],
   "need_preview_pull_request": false,
   "need_pr_comments": false,
-  "contribution_branch_mappings": {
-    "master-bili-sxs": "master-bili",
-    "branch-test-sxs": "branch-test",
-    "master-work2-sxs": "master-work2",
-    "master-test-sxs": "master-test",
-    "master-test1-sxs": "master-test1"
-  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -51,18 +40,5 @@
       "branch": "master"
     }
   ],
-  "branch_target_mapping": {
-    "master": [
-      "Publish"
-    ],
-    "config-test3": [
-      "Publish",
-      "Intellisense"
-    ],
-    "master678": [
-      "Publish",
-      "PDF"
-    ]
-  },
   "need_generate_pdf_url_template": false
 }
