@@ -26,8 +26,14 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "need_preview_pull_request": false,
-  "need_pr_comments": false,
+  "branches_to_filter": [
+    "config-test"
+  ],
+  "need_preview_pull_request": true,
+  "need_pr_comments": true,
+  "contribution_branch_mappings": {
+    "config-test-sxs": "config-test"
+  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -40,5 +46,12 @@
       "branch": "master"
     }
   ],
+  "branch_target_mapping": {
+    "config-test": [
+      "Publish",
+      "Intellisense",
+      "PDF"
+    ]
+  },
   "need_generate_pdf_url_template": false
 }
