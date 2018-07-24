@@ -8,11 +8,11 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
+      "moniker_ranges": [],
+      "xref_query_tags": [],
       "docset_name": "configdashboard",
       "build_source_folder": "configdashboard",
       "locale": "en-us",
-      "moniker_ranges": [],
-      "xref_query_tags": [],
       "open_to_public_contributors": true,
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -25,8 +25,12 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "notification_subscribers": [],
+  "notification_subscribers": [
+    "v-s@microsoft.com",
+    "v-sthong@microsoft.ccom"
+  ],
   "need_preview_pull_request": false,
+  "need_pr_comments": false,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
