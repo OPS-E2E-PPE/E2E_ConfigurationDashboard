@@ -28,8 +28,6 @@
     "v-s@microsoft.com"
   ],
   "git_repository_branch_open_to_public_contributors": "config-test",
-  "need_preview_pull_request": true,
-  "need_pr_comments": true,
   "resolve_user_profile_using_github": true,
   "dependent_repositories": [
     {
@@ -43,5 +41,20 @@
       "branch": "master"
     }
   ],
-  "need_generate_pdf_url_template": false
+  "need_generate_pdf_url_template": false,
+  "branches_to_filter": [
+    "config-test"
+  ],
+  "need_preview_pull_request": true,
+  "need_pr_comments": true,
+  "contribution_branch_mappings": {
+    "config-test-sxs": "config-test"
+  },
+  "branch_target_mapping": {
+    "config-test": [
+      "Publish",
+      "Intellisense",
+      "PDF"
+    ]
+  }
 }
