@@ -27,8 +27,16 @@
   "notification_subscribers": [
     "v-s@microsoft.com"
   ],
+  "branches_to_filter": [
+    "config-test"
+  ],
   "git_repository_branch_open_to_public_contributors": "config-test",
+  "need_preview_pull_request": false,
+  "need_pr_comments": true,
   "resolve_user_profile_using_github": true,
+  "contribution_branch_mappings": {
+    "config-test-sxs": "config-test"
+  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -41,20 +49,12 @@
       "branch": "master"
     }
   ],
-  "need_generate_pdf_url_template": false,
-  "branches_to_filter": [
-    "config-test"
-  ],
-  "need_preview_pull_request": true,
-  "need_pr_comments": true,
-  "contribution_branch_mappings": {
-    "config-test-sxs": "config-test"
-  },
   "branch_target_mapping": {
     "config-test": [
       "Publish",
       "Intellisense",
       "PDF"
     ]
-  }
+  },
+  "need_generate_pdf_url_template": false
 }
