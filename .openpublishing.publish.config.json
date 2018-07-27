@@ -31,7 +31,7 @@
     "config-test-sxs"
   ],
   "git_repository_branch_open_to_public_contributors": "config-test",
-  "need_preview_pull_request": false,
+  "need_preview_pull_request": true,
   "need_pr_comments": true,
   "resolve_user_profile_using_github": true,
   "contribution_branch_mappings": {
