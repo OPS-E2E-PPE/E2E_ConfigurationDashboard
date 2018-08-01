@@ -48,7 +48,7 @@
   "git_repository_branch_open_to_public_contributors": "config-test",
   "need_generate_pdf_url_template": false,
   "need_pr_comments": true,
-  "need_preview_pull_request": false,
+  "need_preview_pull_request": true,
   "notification_subscribers": [
     "v-s@microsoft.com"
   ],
