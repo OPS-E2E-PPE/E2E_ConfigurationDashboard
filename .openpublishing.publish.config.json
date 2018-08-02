@@ -43,9 +43,7 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "xref_query_tags": [
-        "uwp/api"
-      ]
+      "xref_query_tags": []
     }
   ],
   "need_generate_pdf_url_template": false,
