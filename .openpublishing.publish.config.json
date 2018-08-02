@@ -43,12 +43,14 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "xref_query_tags": []
+      "xref_query_tags": [
+        "uwp/api"
+      ]
     }
   ],
   "need_generate_pdf_url_template": false,
   "need_pr_comments": true,
-  "need_preview_pull_request": true,
+  "need_preview_pull_request": false,
   "notification_subscribers": [],
   "skip_source_output_uploading": false,
   "sync_notification_subscribers": []
