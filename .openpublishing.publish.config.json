@@ -5,8 +5,13 @@
     }
   },
   "branch_target_mapping": {
+    "branch-intest": [
+      "Publish",
+      "Intellisense"
+    ],
     "config-test": [
-      "Publish"
+      "Publish",
+      "PDF"
     ],
     "live-based": [
       "Pdf",
@@ -14,10 +19,12 @@
     ]
   },
   "branches_to_filter": [
-    "config-test-sxs"
+    "config-test-sxs",
+    "master-work2"
   ],
   "contribution_branch_mappings": {
-    "config-test-sxs": "config-test"
+    "config-test-sxs": "config-test",
+    "master-work2-sxs": "master-work2"
   },
   "dependent_repositories": [
     {
